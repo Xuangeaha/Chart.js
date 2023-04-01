@@ -30,9 +30,9 @@ function activate(context) {
 \t\ttype: '\${4:line}',
 
 \t\tdata: {
-\t\t\tlabels: \${5:My Chart},
+\t\t\tlabels: "\${5:My Chart}",
 \t\t\tdatasets: [{
-\t\t\t\tlabel: "\${6}"
+\t\t\t\tlabel: "\${6}",
 \t\t\t\tdata: \${7},
 \t\t\t\tbackgroundColor: \${8},
 \t\t\t\tborderColor: \${9},
