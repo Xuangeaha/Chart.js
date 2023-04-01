@@ -4,9 +4,9 @@
 
 [![TrendingDaily](https://vsmarketplacebadges.dev/trending-daily/xuangeaha.chartjs.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.chartjs) [![TrendingWeekly](https://vsmarketplacebadges.dev/trending-weekly/xuangeaha.chartjs.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.chartjs) [![TrendingMonthly](https://vsmarketplacebadges.dev/trending-monthly/xuangeaha.chartjs.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.chartjs)
 
-Simple and flexible JavaScript charting library for the modern web.
+Simple and flexible JavaScript charting library for the modern web. Add Chart.js graph code to your HTML files easily with one click.
 
-为设计和开发人员准备的简单、灵活的 JavaScript 图表工具。
+为设计和开发人员准备的简单、灵活的 JavaScript 图表工具。轻松一点即可向你的HTML文件添加Chart.js图表。
 
 **Homepage/主页**: [`https://xuangeaha.github.io/`](https://xuangeaha.github.io/)
 
@@ -24,9 +24,9 @@ Simple and flexible JavaScript charting library for the modern web.
 
 # How To Use 使用方法
 
-1. Right click to show context menu. 右键显示上下文菜单。
-2. Select `Import Chart.js` to import Chart.js script. 选择 `Import Chart.js` 以导入Chart.js代码。
-3. Select `Insert Chart.js Graph` to insert Chart.js graph. 选择 `Insert Chart.js Graph` 以插入Chart.js图表。
+1. **Right click** to show context menu. **右键**显示上下文菜单。
+2. Select `Import Chart.js` to **import Chart.js script**. 选择 `Import Chart.js` 以**导入Chart.js代码**。
+3. Select `Insert Chart.js Graph` to **insert Chart.js graph**. 选择 `Insert Chart.js Graph` 以**插入Chart.js图表**。
 
 # Language Supports 语言支持
 
@@ -47,7 +47,7 @@ Simple and flexible JavaScript charting library for the modern web.
             labels: {labelList},
             datasets: [{
                 backgroundColor: {colorList},
-                data: dataList},
+                data: {dataList},
             }]
         },
 

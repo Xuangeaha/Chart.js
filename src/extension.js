@@ -23,25 +23,37 @@ function activate(context) {
             return;
         }
         // 获取代码片段
-        const snippet = new vscode.SnippetString(`<canvas id="\${1:graphName}" width="\${2}" height="\${3}"></canvas>
+        const snippet = new vscode.SnippetString(`<canvas id="\${1:myChart}" width="\${2}" height="\${3}"></canvas>
 <script>
-\tvar ctx = document.getElementById('\${1:graphName}').getContext('2d');
+\tvar ctx = document.getElementById('\${1:myChart}').getContext('2d');
 \tvar chart = new Chart(ctx, {
-\t\ttype: '\${4:graphType}',
+\t\ttype: '\${4:line}',
 
 \t\tdata: {
-\t\t\tlabels: \${4:labelList},
+\t\t\tlabels: \${5:My Chart},
 \t\t\tdatasets: [{
-\t\t\t\tbackgroundColor: \${5:colorList},
-\t\t\t\tdata: \${6:dataList},
+\t\t\t\tlabel: "\${6}"
+\t\t\t\tdata: \${7},
+\t\t\t\tbackgroundColor: \${8},
+\t\t\t\tborderColor: \${9},
+\t\t\t\tborderWidth: \${10}
 \t\t\t}]
 \t\t},
 
 \t\toptions: {
 \t\t\ttitle: {
-\t\t\t\tdisplay: true,
-\t\t\t\ttext: "\${7:graphTitle}"
-\t\t\t}
+\t\t\t\ttext: "\${11:My Chart}",
+\t\t\t\tdisplay: \${12:true},
+\t\t\t},
+\t\t\tevents: [\${13}],
+\t\t\tlegend: {
+\t\t\t\tdisplay: \${14:true},
+\t\t\t},
+\t\t\ttooltips: {
+\t\t\t\tmode: '\${15}'
+\t\t\t},
+\t\t\tlayout: {\${16}},
+\t\t\tanimation: {\${17}}
 \t\t}
 \t});
 </script>`);

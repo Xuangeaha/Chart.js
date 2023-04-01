@@ -2,8 +2,8 @@
   "name": "chartjs",
   "publisher": "XuangeAha",
   "displayName": "Chart.js",
-  "description": "Simple and flexible JavaScript charting library for the modern web.",
-  "version": "0.0.1",
+  "description": "Simple and flexible JavaScript charting library for the modern web. Add Chart.js graph code to your html files easily with one click.",
+  "version": "0.1.0",
   "license": "MIT",
   "icon": "logo.png",
   "author": {
@@ -230,24 +230,24 @@
     "commands": [
       {
         "command": "chartjs.importChart",
-        "title": "Import Chart.js",
-        "category": "Insert Code Snippet"
+        "title": "Import Chart.js"
       },
       {
         "command": "chartjs.addChart",
-        "title": "Insert Chart.js Graph",
-        "category": "Insert Code Snippet"
+        "title": "Insert Chart.js Graph"
       }
     ],
     "menus": {
       "editor/context": [
         {
           "when": "editorFocus",
-          "command": "chartjs.importChart"
+          "command": "chartjs.importChart",
+          "group": "2_main"
         },
         {
           "when": "editorFocus",
-          "command": "chartjs.addChart"
+          "command": "chartjs.addChart",
+          "group": "2_main"
         }
       ]
     }
