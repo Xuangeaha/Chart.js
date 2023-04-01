@@ -1,20 +1,20 @@
 {
-  "name": "vsmarketplace-badges",
+  "name": "chartjs",
   "publisher": "XuangeAha",
-  "displayName": "VSMarketplace Badges",
-  "description": "Insert version, installs and rating badges for VSMarketplace extensions easily to your HTML or Markdown pages.",
-  "version": "0.3.1",
+  "displayName": "Chart.js",
+  "description": "Simple and flexible JavaScript charting library for the modern web",
+  "version": "0.0.1",
   "license": "MIT",
   "icon": "logo.png",
   "author": {
     "name": "XuangeAha"
   },
-  "homepage": "https://github.com/Xuangeaha/VSMarketplace-Badges",
+  "homepage": "https://github.com/Xuangeaha/Chart.js",
   "repository": {
-    "url": "https://github.com/Xuangeaha/VSMarketplace-Badges"
+    "url": "https://github.com/Xuangeaha/Chart.js"
   },
   "bugs": {
-    "url": "https://github.com/Xuangeaha/VSMarketplace-Badges/issues"
+    "url": "https://github.com/Xuangeaha/Chart.js/issues"
   },
   "engines": {
     "vscode": "^1.75.0"
@@ -40,6 +40,8 @@
     "Other"
   ],
   "keywords": [
+    "chartjs",
+    "chart",
     "badge",
     "badges",
     "icon",
@@ -219,16 +221,24 @@
     "program",
     "programming"
   ],
+  "main": "./src/extension",
+  "activationEvents": [
+		"onCommand:chartjs.addChart"
+	],
   "contributes": {
-    "snippets": [
+    "commands": [
       {
-        "language": "html",
-        "path": "./snippets/html.json"
-      },
-      {
-        "language": "markdown",
-        "path": "./snippets/markdown.json"
+        "command": "chartjs.addChart",
+        "title": "Insert Chart.js Graph"
       }
-    ]
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "when": "editorFocus",
+          "command": "chartjs.addChart"
+        }
+      ]
+    }
   }
 }
