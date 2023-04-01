@@ -1,66 +1,64 @@
-# VSMarketplace Badges
+# Chart.js
 
-[![Version](https://vsmarketplacebadges.dev/version/xuangeaha.vsmarketplace-badges.svg?&colorB=orange)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.vsmarketplace-badges) [![Installs](https://vsmarketplacebadges.dev/installs/xuangeaha.vsmarketplace-badges.svg)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.vsmarketplace-badges) [![Downloads](https://vsmarketplacebadges.dev/downloads/xuangeaha.vsmarketplace-badges.svg)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.vsmarketplace-badges) [![Rating Short](https://vsmarketplacebadges.dev/rating-short/xuangeaha.vsmarketplace-badges.svg)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.vsmarketplace-badges) [![Rating Star](https://vsmarketplacebadges.dev/rating-star/xuangeaha.vsmarketplace-badges.svg)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.vsmarketplace-badges)
+[![Version](https://vsmarketplacebadges.dev/version/xuangeaha.chartjs.svg?&colorB=orange)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.chartjs) [![Installs](https://vsmarketplacebadges.dev/installs/xuangeaha.chartjs.svg)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.chartjs) [![Downloads](https://vsmarketplacebadges.dev/downloads/xuangeaha.chartjs.svg)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.chartjs) [![Rating Short](https://vsmarketplacebadges.dev/rating-short/xuangeaha.chartjs.svg)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.chartjs) [![Rating Star](https://vsmarketplacebadges.dev/rating-star/xuangeaha.chartjs.svg)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.chartjs)
 
-[![TrendingDaily](https://vsmarketplacebadges.dev/trending-daily/xuangeaha.vsmarketplace-badges.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.vsmarketplace-badges) [![TrendingWeekly](https://vsmarketplacebadges.dev/trending-weekly/xuangeaha.vsmarketplace-badges.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.vsmarketplace-badges) [![TrendingMonthly](https://vsmarketplacebadges.dev/trending-monthly/xuangeaha.vsmarketplace-badges.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.vsmarketplace-badges)
+[![TrendingDaily](https://vsmarketplacebadges.dev/trending-daily/xuangeaha.chartjs.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.chartjs) [![TrendingWeekly](https://vsmarketplacebadges.dev/trending-weekly/xuangeaha.chartjs.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.chartjs) [![TrendingMonthly](https://vsmarketplacebadges.dev/trending-monthly/xuangeaha.chartjs.svg?&colorB=blue)](https://marketplace.visualstudio.com/items?itemName=xuangeaha.chartjs)
 
-Insert version, installs and rating badges for VSMarketplace extensions easily to your HTML or Markdown pages.
+Simple and flexible JavaScript charting library for the modern web.
 
-将VSMarketplace扩展的版本、安装量和评分等徽章轻松插入到您的HTML或Markdown页面。
+为设计和开发人员准备的简单、灵活的 JavaScript 图表工具。
 
 **Homepage/主页**: [`https://xuangeaha.github.io/`](https://xuangeaha.github.io/)
 
-**Repository/仓库**: [`https://github.com/Xuangeaha/VSMarketplace-Badges`](https://github.com/Xuangeaha/VSMarketplace-Badges)
+**Repository/仓库**: [`https://github.com/Xuangeaha/Chart.js`](https://github.com/Xuangeaha/Chart.js)
 
-**Issues/问题**: [`https://github.com/Xuangeaha/VSMarketplace-Badges/issues`](https://github.com/Xuangeaha/VSMarketplace-Badges/issues)
+**Issues/问题**: [`https://github.com/Xuangeaha/Chart.js/issues`](https://github.com/Xuangeaha/Chart.js/issues)
 
-**Changelog/更新日志**: [`https://marketplace.visualstudio.com/items/XuangeAha.vsmarketplace-badges/changelog`](https://marketplace.visualstudio.com/items/XuangeAha.vsmarketplace-badges/changelog)
+**Changelog/更新日志**: [`https://marketplace.visualstudio.com/items/XuangeAha.Chartjs/changelog`](https://marketplace.visualstudio.com/items/XuangeAha.Chartjs/changelog)
 
-**License/许可证**: [`https://marketplace.visualstudio.com/items/XuangeAha.vsmarketplace-badges/license`](https://marketplace.visualstudio.com/items/XuangeAha.vsmarketplace-badges/license)
+**License/许可证**: [`https://marketplace.visualstudio.com/items/XuangeAha.Chartjs/license`](https://marketplace.visualstudio.com/items/XuangeAha.Chartjs/license)
 
-**Download/下载**: [`https://marketplace.visualstudio.com/items?itemName=XuangeAha.vsmarketplace-badges`](https://marketplace.visualstudio.com/items?itemName=XuangeAha.vsmarketplace-badges)
+**Download/下载**: [`https://marketplace.visualstudio.com/items?itemName=XuangeAha.Chartjs`](https://marketplace.visualstudio.com/items?itemName=XuangeAha.Chartjs)
 
 **Copyright (c) 2023 XuangeAha(轩哥啊哈OvO)**
 
 # How To Use 使用方法
 
-1. Type `badge` in the file of supported languages above.  在所支持语言文件中键入 `badge`。
-2. Select the badge you want to insert and press `Tab`.  选择你想插入的徽章后按下 `Tab`。
-3. The badge will automatically be added to the file.  徽章将自动加入文件中。
-4. Type in your publisher name and entension name in the format of `publishername.entensionname`.  以 `publishername.entensionname` 的格式键入发布者名和扩展名。
-5. Press `Tab` and finish.  按下 `Tab` 后完成。
+1. Right click to show context menu. 右键显示上下文菜单。
+2. Select `Import Chart.js` to import Chart.js script. 选择 `Import Chart.js` 以导入Chart.js代码。
+3. Select `Insert Chart.js Graph` to insert Chart.js graph. 选择 `Insert Chart.js Graph` 以插入Chart.js图表。
 
 # Language Supports 语言支持
 
 ## HTML
 
 ```html
-<a href="https://marketplace.visualstudio.com/items?itemName={publishername.extensionname}">
-    <img src="https://vsmarketplacebadges.dev/{badge_title}/{publishername.extensionname}.svg" alt="{badge_title}">
-</a>
+<!-- Import Chart.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+
+<!-- Insert Chart.js Graph -->
+<canvas id="{graphName}" width="{}" height="{}"></canvas>
+<script>
+    var ctx = document.getElementById('{graphName}').getContext('2d');
+    var chart = new Chart(ctx, {
+        type: '{graphType}',
+
+        data: {
+            labels: {labelList},
+            datasets: [{
+                backgroundColor: {colorList},
+                data: dataList},
+            }]
+        },
+
+        options: {
+            title: {
+                display: true,
+                text: "{graphTitle}"
+            }
+        }
+    });
+</script>
 ```
-
-## Markdown
-
-```markdown
-[![{badge_title}}](https://vsmarketplacebadges.dev/{badge_title}/{publishername.extensionname}.svg)](https://marketplace.visualstudio.com/items?itemName={publishername.extensionname})
-```
-
-# Badge List 徽章列表
-
-| Badge Title/徽章标题 |  Prefix/前缀  | URL/地址                                                       |     Discription/描述     |
-| :------------------: | :-----------: | -------------------------------------------------------------- | :-----------------------: |
-|       Version       |   badge-ver   | https://vsmarketplacebadges.dev/version/*****.svg              |     VSBadges Version     |
-|    Version Short    |  badge-ver-s  | https://vsmarketplacebadges.dev/version-short/*****.svg        |  VSBadges Version Short  |
-|       Installs       |  badge-instl  | https://vsmarketplacebadges.dev/installs/*****.svg             |     VSBadges Installs     |
-|    Installs Short    | badge-instl-s | https://vsmarketplacebadges.dev/installs-short/*****.svg       |  VSBadges Installs Short  |
-|      Downloads      |   badge-dld   | https://vsmarketplacebadges.dev/downloads/*****.svg            |    VSBadges Downloads    |
-|   Downloads Short   |  badge-dld-s  | https://vsmarketplacebadges.dev/downloadsversi-short/*****.svg | VSBadges Downloads Short |
-|        Rating        |  badge-rate  | https://vsmarketplacebadges.dev/rating/*****.svg               |     VSBadges Rating     |
-|     Rating Short     | badge-rate-s | https://vsmarketplacebadges.dev/rating-short/*****.svg         |  VSBadges Rating Short  |
-|     Rating Star     | badge-rate-st | https://vsmarketplacebadges.dev/rating-star/*****.svg          |   VSBadges Rating Star   |
-|    TrendingDaily    |   badge-trd   | https://vsmarketplacebadges.dev/trending-daily/*****.svg       |  VSBadges TrendingDaily  |
-|    TrendingWeekly    |   badge-trw   | https://vsmarketplacebadges.dev/trending-weekly/*****.svg      | VSBadges TrendingWeekly |
-|   TrendingMonthly   |   badge-trm   | https://vsmarketplacebadges.dev/trending-monthly/*****.svg     | VSBadges TrendingMonthly |
 
 **Enjoy!**

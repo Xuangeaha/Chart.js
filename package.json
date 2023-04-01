@@ -2,7 +2,7 @@
   "name": "chartjs",
   "publisher": "XuangeAha",
   "displayName": "Chart.js",
-  "description": "Simple and flexible JavaScript charting library for the modern web",
+  "description": "Simple and flexible JavaScript charting library for the modern web.",
   "version": "0.0.1",
   "license": "MIT",
   "icon": "logo.png",
