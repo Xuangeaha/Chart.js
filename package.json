@@ -223,17 +223,28 @@
   ],
   "main": "./src/extension",
   "activationEvents": [
+    "onCommand:chartjs.importChart",
 		"onCommand:chartjs.addChart"
 	],
   "contributes": {
     "commands": [
       {
+        "command": "chartjs.importChart",
+        "title": "Import Chart.js",
+        "category": "Insert Code Snippet"
+      },
+      {
         "command": "chartjs.addChart",
-        "title": "Insert Chart.js Graph"
+        "title": "Insert Chart.js Graph",
+        "category": "Insert Code Snippet"
       }
     ],
     "menus": {
       "editor/context": [
+        {
+          "when": "editorFocus",
+          "command": "chartjs.importChart"
+        },
         {
           "when": "editorFocus",
           "command": "chartjs.addChart"
