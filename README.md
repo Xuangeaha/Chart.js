@@ -30,35 +30,65 @@ Simple and flexible JavaScript charting library for the modern web. Add Chart.js
 
 # Language Supports 语言支持
 
-## HTML
+## Import Chart.js
 
 ```html
-<!-- Import Chart.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+```
 
-<!-- Insert Chart.js Graph -->
-<canvas id="{graphName}" width="{}" height="{}"></canvas>
+## Insert Chart.js
+
+```html
+<!--  Graph -->
+<canvas id="{myChart}" width="{}" height="{}"></canvas>
 <script>
-    var ctx = document.getElementById('{graphName}').getContext('2d');
+    var ctx = document.getElementById('{myChart}').getContext('2d');
     var chart = new Chart(ctx, {
-        type: '{graphType}',
+        type: '{line}',
 
         data: {
-            labels: {labelList},
+            labels: {My Chart},
             datasets: [{
-                backgroundColor: {colorList},
-                data: {dataList},
+                label: "{}"
+                data: {},
+                backgroundColor: {},
+                borderColor: {},
+                borderWidth: {}
             }]
         },
 
         options: {
             title: {
-                display: true,
-                text: "{graphTitle}"
-            }
+                text: "{My Chart}",
+                display: {true},
+            },
+            events: [{}],
+            legend: {
+                display: {true},
+            },
+            tooltips: {
+                mode: '{}'
+            },
+            layout: {{}},
+            animation: {{}}
         }
     });
 </script>
 ```
+
+# About Chart.js 关于 Chart.js
+
+
+Chart.js is a simple and flexible JavaScript charting library for the modern web.
+
+Chart.js 是一个为设计和开发人员准备的简单、灵活的 JavaScript 图表工具。
+
+**Official Website/官网**: [`https://www.chartjs.org/`](https://www.chartjs.org)
+
+**Chinese Official Website/中文官网**: [`https://www.chartjs.com.cn/`](https://www.chartjs.com.cn/)
+
+**Repository/仓库**: [`https://github.com/chartjs/Chart.js`](https://github.com/chartjs/Chart.js)
+
+![Chart.js](logo.png)
 
 **Enjoy!**
