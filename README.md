@@ -39,7 +39,6 @@ Simple and flexible JavaScript charting library for the modern web. Add Chart.js
 ## Insert Chart.js
 
 ```html
-<!--  Graph -->
 <canvas id="{myChart}" width="{}" height="{}"></canvas>
 <script>
     var ctx = document.getElementById('{myChart}').getContext('2d');
@@ -49,7 +48,7 @@ Simple and flexible JavaScript charting library for the modern web. Add Chart.js
         data: {
             labels: {My Chart},
             datasets: [{
-                label: "{}"
+                label: {},
                 data: {},
                 backgroundColor: {},
                 borderColor: {},
@@ -77,7 +76,6 @@ Simple and flexible JavaScript charting library for the modern web. Add Chart.js
 ```
 
 # About Chart.js 关于 Chart.js
-
 
 Chart.js is a simple and flexible JavaScript charting library for the modern web.
 
