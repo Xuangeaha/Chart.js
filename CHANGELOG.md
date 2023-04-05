@@ -6,7 +6,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## 0.1.3 2023-04-05
 
-Fix some mistakes in the snippets.
+Fix some mistakes in the snippets and `CHANGELOG.md`.
 
 ## 0.1.2 2023-04-01
 
@@ -18,7 +18,7 @@ Optimize `README.md`.
 
 ## 0.1.0 2023-04-01
 
-Add `borderColor`, `borderWidth`, `events`, `legend`, `tooltips`, `layout `and `animation `options to the chart.
+Add `borderColor`, `borderWidth`, `events`, `legend`, `tooltips`, `layout` and `animation` options to the chart.
 
 Update `discription`.
 
