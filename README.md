@@ -46,9 +46,9 @@ Simple and flexible JavaScript charting library for the modern web. Add Chart.js
         type: '{line}',
 
         data: {
-            labels: {My Chart},
+            labels: {},
             datasets: [{
-                label: {},
+                label: "{My Chart}",
                 data: {},
                 backgroundColor: {},
                 borderColor: {},
