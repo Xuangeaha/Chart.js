@@ -3,7 +3,7 @@
   "publisher": "XuangeAha",
   "displayName": "Chart.js",
   "description": "Simple and flexible JavaScript charting library for the modern web. Add Chart.js graph code to your html files easily with one click.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "license": "MIT",
   "icon": "logo.png",
   "author": {
@@ -11,10 +11,15 @@
   },
   "homepage": "https://github.com/Xuangeaha/Chart.js",
   "repository": {
+    "type": "git",
     "url": "https://github.com/Xuangeaha/Chart.js"
   },
   "bugs": {
     "url": "https://github.com/Xuangeaha/Chart.js/issues"
+  },
+  "galleryBanner": {
+      "color": "#f5bbca",
+      "theme": "light"
   },
   "engines": {
     "vscode": "^1.75.0"
